@@ -1,0 +1,39 @@
+#######################################
+PROBLEMATICA A RESOLVER:
+#######################################
+
+Sara está investigando cómo la temperatura influye en la velocidad de una reacción química específica. 
+Para ello, trabaja en un laboratorio donde se comparan datos de temperatura en distintas unidades. 
+Dado que los datos llegan en grados Fahrenheit desde Estados Unidos, Sara necesita convertirlos a grados Celsius 
+para poder utilizarlos en sus experimentos.
+
+#######################################
+ABSTRACCIÓN
+#######################################
+
+Fahrenheit > Celsius
+
+#######################################
+ALGORITMO: 
+#######################################
+
+1. Entrada del dato: Recibir la temperatura en grados Fahrenheit que necesita ser convertida
+2. Conversión: Aplicar la fórmula para convertir el dato ingresado a Celsius
+3. Mostrar resultado: Mostrar la temperatura convertida en grados Celsius
+
+#######################################
+PSEUDOCÓDIGO: 
+#######################################
+
+Inicio
+    # 1. Recibir la temperatura en grados Fahrenheit que necesita ser convertida
+    Imprimir "Favor ingresar la temperatura que se desea convertir: "
+    Leer temperatura_fahrenheit
+
+    # 2. Aplicar la fórmula para convertir el dato ingresado a Celsius
+    temperatura_celsius = (temperatura_fahrenheit - 32) * (5/9)
+
+    # 3. Mostrar la temperatura convertida en grados Celsius
+    Imprimir "La temperatura en grados Celsius es: " + temperatura_celsius
+Fin
+
